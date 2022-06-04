@@ -12,18 +12,22 @@ class Table extends Component {
     }
 
     render() {
-        // const titles = Object.keys(this.props.items);
-        console.log(this.props.items, 'Row')
+        const titles = Object.keys(this.props.items[0]);
+        console.log(titles, 'Row')
         return (
             <table>
                 <thead>
                 <tr>
-                    <th>d</th>
+                    {
+                        titles.map(title => (
+                            <th key={title}>{title}</th>
+                        ))
+                    }
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>data here</td>
+                    d
                 </tr>
                 </tbody>
             </table>

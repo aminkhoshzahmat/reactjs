@@ -13,7 +13,7 @@ class UsersList extends Component {
     }
 
     componentDidMount() {
-        fetch('https://jsonplaceholder.typicode.com/userss')
+        fetch('https://jsonplaceholder.typicode.com/users')
             .then(response => response.json())
             .then(data => this.setState({
                 users: data,
@@ -22,6 +22,7 @@ class UsersList extends Component {
     }
 
     render() {
+        console.log(this.state.users)
         return (
             <React.Fragment>
                 <h2>List of users</h2>

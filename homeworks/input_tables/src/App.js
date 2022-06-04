@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import 'antd/dist/antd.css';
 import InputText from "./Components/shared/forms/InputText";
 import {ErrorBoundariesHandler} from "./Handlers/ErrorBoundariesHandler";
 import UsersList from "./Components/UsersList";
