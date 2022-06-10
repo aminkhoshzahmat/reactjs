@@ -12,7 +12,7 @@ class LifeCycle extends Component {
     }
 
     /**
-     * kanale khubi vase baresi state ha
+     * kanale khubi vase baresi state ha va propsha
      */
     static getDerivedStateFromProps(props, state) {
         console.log('getDerivedStateFromProps', state.counter)

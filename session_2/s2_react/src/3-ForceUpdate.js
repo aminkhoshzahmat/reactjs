@@ -16,6 +16,7 @@ class ForceUpdate extends React.Component
      */
     render()
     {
+        console.log('rerender')
         return (
             <div>
                 <p>Random: {Math.random()}</p>

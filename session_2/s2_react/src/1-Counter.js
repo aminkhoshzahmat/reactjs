@@ -26,14 +26,14 @@ class Counter extends React.Component {
     }
 
     /**
-     * lexical funtion
+     * lexical function, normal function
      * this inja eshare mikone be object jari, uni ke ma tush alan hastim.
      * this dar zamane ejra negah mikone bebine kojast
      *
-     * chera lazem be bind shod, tu lahze creating ke mirim be dom, dge this ma taghir karde, raftim tu ye context dge.
+     * chera lazem be bind shod, tu lahze creation ke mirim be dom, dge this ma taghir karde, raftim tu ye context dge.
      */
     increase(arg) {
-        // console.log(this)
+        console.log(this)
         // console.log(arg)
         this.setState({counter: this.state.counter + 1})
     }
@@ -46,6 +46,7 @@ class Counter extends React.Component {
      * az lahze creation hamunja negah mikone va ta abad this ba khodesh negah midare. dar zamane motevaled shodanesh.
      */
     decrease = () => {
+        console.log(this)
         this.setState({counter: this.state.counter - 1})
     };
 
