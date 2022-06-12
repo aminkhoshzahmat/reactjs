@@ -26,7 +26,7 @@ export default class CreateRef extends Component {
         // if (this.textInput.current) {
         //   this.textInput.current.focus();
         // }
-        this.textInput.current?.focus();
+        this.textInput.current?.focus(); // current mitune null | element bashe
       }
     );
     // console.log(this.textInput);

@@ -57,8 +57,8 @@ class MyComponent extends Component {
 }
 
 /**
- * mitunid jolo update az samte parent begirid, dar ezate taghir update state,props,forceupdate, parent changes
- * mitunid dar ezage parent jolosho begirid, ama pure component jolo state,props,forceupdate nemitune.
+ * mitunid jolo update az samte parent begirid, dar ezaye taghir update state,props,forceupdate, parent changes
+ * mitunid dar ezaye update parent jolosho begirid, ama pure component jolo state,props,forceupdate nemitune.
  *
  *
  * PureComponent besurate hidden hame karaye shouldComponentUpdate dasti mikone
