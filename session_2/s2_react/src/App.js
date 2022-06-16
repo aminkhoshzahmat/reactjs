@@ -16,6 +16,13 @@ import CreateRef from "./13-CreateRef";
 import Stateless from "./16-Stateless";
 import ClassVsFunction from "./17-ClassVsFunction";
 import UseState from "./18-UseState";
+import UseEffect from "./19-UseEffect";
+import AdvancedUseEffect from "./20-AdvancedUseEffect";
+import HooksRules from "./21-HooksRules";
+import CustomHook from "./22-CustomHook";
+import TodosUseState from "./23-TodosUseState";
+import UseReducer from "./24-UseReducer";
+import TodosUseReducer from "./25-TodosUseReducer";
 
 class App extends React.Component {
   render() {
@@ -41,7 +48,14 @@ class App extends React.Component {
         {/* <PureComponent /> */}
         {/* <Stateless /> */}
         {/* <ClassVsFunction /> */}
-        <UseState />
+        {/* <UseState /> */}
+        {/* <UseEffect /> */}
+        {/* <AdvancedUseEffect /> */}
+        {/* <HooksRules /> */}
+        {/* <CustomHook /> */}
+        {/* <TodosUseState /> */}
+        {/* <UseReducer /> */}
+        <TodosUseReducer />
       </div>
     );
   }

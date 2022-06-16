@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./HOC/App";
+// import App from "./HOC/App";
 import "./index.css";
 
 import reportWebVitals from "./reportWebVitals";

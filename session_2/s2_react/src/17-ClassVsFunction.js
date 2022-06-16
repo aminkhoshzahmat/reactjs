@@ -1,5 +1,10 @@
 import React, { Component, useState } from "react";
 
+/**
+ * Bundle size function ha kheily kamtar az class component ha hast
+ * va performance behtare
+ */
+
 // export default class ClassVsFunction extends Component {
 //   state = {
 //     count: 0,
