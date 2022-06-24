@@ -6,6 +6,8 @@ function reducer(state, action) {
       return [...state, { title: action.payload, id: getId(state) }];
     case "REMOVE_TODO":
       return state.filter((todo) => todo.id !== action.payload);
+    default:
+    // console.log('hello');
   }
   return state;
 }
